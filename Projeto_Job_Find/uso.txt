@@ -1,0 +1,15 @@
+const express = require('express')
+//cria a dependencia
+const app = express();
+//chama a dependencia
+
+app.listen
+//ouve a chamada em uma porta
+
+app.get
+//cria uma rota
+
+"scripts": {
+    "dev": "nodemon app.js"
+  },
+//no json para sempre atualizar sem precisar fehcar
