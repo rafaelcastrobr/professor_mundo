@@ -1,0 +1,4 @@
+npm init -y  // instalar dependencias diretas
+npm i express // inst 
+
+usar o postam para teste de rotas
