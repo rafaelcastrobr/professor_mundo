@@ -45,7 +45,7 @@ const usarioFunction = {
 }
 
 let {nome: {primeiro: PriNome} } = usarioFunction;
-console.log(PriNome)
+//console.log(PriNome)
 
 //imprimeUsuario(usarioFunction)
 
@@ -70,6 +70,6 @@ for (let prop of props) {
 
 for (let prop2 in usarioFunction) {
   if (usarioFunction.hasOwnProperty(prop2)) {
-    //console.log(prop2, usarioFunction[prop2])
+    console.log(prop2, usarioFunction[prop2])
   }
 }
