@@ -10,7 +10,7 @@ export default function ComParametro(props) {
         tem nota
         <strong> {props.nota} </strong>
         e está
-        <strong> {status} </strong>
+        <strong> {status} </strong>!
       </p>
     </div>
   )
