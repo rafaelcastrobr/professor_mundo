@@ -1,0 +1,22 @@
+.Contador {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  font-size: 1.4rem;
+  width: 60px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(214, 135, 135);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.4rem;
+}

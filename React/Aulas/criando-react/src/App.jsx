@@ -12,12 +12,37 @@ import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import DiretaPai from "./components/comunicacao/DiretaPai";
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
+import Input from "./components/formulario/Input";
+import Contador from "./components/contador/Contador";
+import Mega from "./components/mega/Mega";
 
 export default () => (
   <div id='app'>
     <h1>Fundamentos da Aplicação</h1>
 
     <div className="Cards">
+      <Card titulo="#13 - Gerador Mega" color="#23407c">
+        <Mega qtd={6}/>
+      </Card>
+
+      <Card titulo="#12 - Contador com Classe" color="#9dc700">
+        <Contador numeroInicial={100} />
+      </Card>
+
+      <Card titulo="#11 - Componente Controlado" color="#c72a00">
+        <Input/>
+      </Card>
+
+      <Card titulo="#10 - Comunicação Indireta" color="#c70039">
+        <IndiretaPai/>
+      </Card>
+
+      <Card titulo="#09 - Comunicação Direta" color="#c70039">
+        <DiretaPai/>
+      </Card>
+
       <Card titulo="#08 - Renderização Condicional" color="#00A36C">
         <ParOuImpar numero={21}/>
         <UsuarioInfo usuario={{ nome: 'Rafael' }}></UsuarioInfo>

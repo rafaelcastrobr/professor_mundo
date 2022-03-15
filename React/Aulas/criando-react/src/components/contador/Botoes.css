@@ -1,0 +1,4 @@
+.Botoes {
+  display: flex;
+  flex-direction: row;
+}
