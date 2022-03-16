@@ -17,12 +17,17 @@ import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
 import Contador from "./components/contador/Contador";
 import Mega from "./components/mega/Mega";
+import Iframe from "./components/iframe/Iframe";
 
 export default () => (
   <div id='app'>
     <h1>Fundamentos da Aplicação</h1>
 
     <div className="Cards">
+      <Card titulo="#13-A - Testando Iframe" color="#23407c">
+        <Iframe></Iframe>
+      </Card>
+
       <Card titulo="#13 - Gerador Mega" color="#23407c">
         <Mega qtd={6}/>
       </Card>
