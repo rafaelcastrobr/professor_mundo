@@ -3,12 +3,12 @@
   justify-content: center;
 }
 
-input {
+.Contador input {
   font-size: 1.4rem;
   width: 60px;
 }
 
-button {
+.Contador button {
   display: flex;
   align-items: center;
   justify-content: center;

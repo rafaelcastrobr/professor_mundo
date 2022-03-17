@@ -24,9 +24,6 @@ export default () => (
     <h1>Fundamentos da Aplicação</h1>
 
     <div className="Cards">
-      <Card titulo="#13-A - Testando Iframe" color="#23407c">
-        <Iframe></Iframe>
-      </Card>
 
       <Card titulo="#13 - Gerador Mega" color="#23407c">
         <Mega qtd={6}/>
